@@ -28,7 +28,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:rgb(111, 84, 209);
+  background-color:rgb(71 58 117);
   color: white;
   position: sticky;
   top:0;
@@ -147,26 +147,32 @@ flex-wrap: wrap;
   margin-top: 30px;
   height: 100vh;
   width: 100%;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
+  /* flex-wrap: wrap; */
   gap: 20px;
 }
 .tamplates>h1{
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
 }
 .tamplates>.image2{
   display: flex;
-  gap: 100px;
-  align-items: center;
-  justify-content: center;
+  /* gap: 100px; */
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  
 }
 .footer{
   height: 80vh;
   width: 100%;
-  background-color: rgb(15, 15, 32);
+  background-color: rgb(111, 84, 209);
   display: flex;
   flex-direction: row; 
   justify-content: space-around;
@@ -212,6 +218,45 @@ flex-wrap: wrap;
 .footer3>h1{
   font-size: 40px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .navbarDiv {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbarDiv > ul {
+    margin-top: 10px;
+  }
+  .section,
+  .section01,
+  .tamplates,
+  .footer {
+    height: auto;
+  }
+
+  .tamplates>.image2{
+    display: flex;
+    /* gap: 100px; */
+    width: 300%;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin-top: 20px;
+  }
 }
 /* body{
   background-color: rgb(78, 76, 76);
@@ -282,10 +327,7 @@ body {
     transform: translateX(100%);
   }
 }
-/* You can adjust the animation duration, timing function, etc., as needed */
-/* #moving-heading {
-  animation: moveRight 10s linear infinite; /* Change duration (10s) as needed */
-} */
+
 hr {
   height: 0;
   /* 1 */
@@ -853,9 +895,9 @@ video {
   display: flex;
 }
 
-.h-\[\] {
+/* .h-\[\] {
   height: ;
-}
+} */
 
 .h-\[80vh\] {
   height: 80vh;
@@ -873,9 +915,9 @@ video {
   height: auto;
 }
 
-.w-\[\] {
+/* .w-\[\] {
   width: ;
-}
+} */
 
 .w-\[80\] {
   width: 80;
