@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #job_main{
-    background-color: #333;
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,8 +15,8 @@
 
 }
 .job-container {
-   background-color: #d6cdcd;
-    box-shadow: 5px 5px 5px rgb(37, 36, 36) , -5px -5px 5px rgb(37, 36, 36) ;
+   background-color: #bdc5c1;
+    box-shadow: 3px 3px 3px rgb(170, 168, 168) , -3px -3px 3px rgb(170, 168, 168) ;
     height: 200px;
     width: 200px;
     display: flex;
@@ -73,6 +73,6 @@
 
 .job-direct {
     margin: 0;
-    color: #e7e2e2;
+    color: #181717;;
     font-style: italic;
 }

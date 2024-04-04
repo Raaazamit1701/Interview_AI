@@ -28,11 +28,11 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:rgb(19, 19, 69);
+  background-color:rgb(111, 84, 209);
   color: white;
   position: sticky;
   top:0;
-  box-shadow: 5px 5px 5px rgb(23, 23, 57);
+  box-shadow: 5px 5px 5px rgb(111, 84, 209);
 }
 .navbarDiv>ul>li{
   margin-top: 10px;
@@ -56,7 +56,7 @@ body{
 .navList{
   height: 60px;
   width: 120px;
-  background-color: rgb(99, 208, 99);
+  background-color: rgb(115, 207, 115);
   display: flex;
   align-items: center;
   border: 1px solid white;
@@ -109,7 +109,7 @@ body{
 .section{
   height: 80vh;
   width: 100vw;
-  background-color: rgb(15, 15, 32);
+  background-color: rgb(111, 84, 209);
   color: white;
   display: flex;
   flex-direction: column;
